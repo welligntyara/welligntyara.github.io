@@ -1,0 +1,41 @@
+body{
+  font-family: Arial;
+  background-color: #66CDAA;
+}
+
+h1{
+  color: black;
+}
+
+p{
+  line-height: 1.8;
+}
+
+#topo{
+  background-color: #223344;
+  color: pink;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  color: black;
+  text-decoration: underline;
+}
+
+#rodape{
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card{
+  background-color: white;
+  border: 1px solid #c0c0c0;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  padding: 20px;
+}
