@@ -1,0 +1,169 @@
+h2 + p {
+  margin-top: 24px;
+}
+/* ---------- Base ---------- */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  color: #333333;
+  background-color: #f5f5f5;
+}
+
+/* ---------- Cabeçalho ---------- */
+.cabecalho {
+  background-color: #1565c0;
+  padding: 32px;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 2rem;
+  margin: 0px;
+}
+
+.subtitulo {
+  color: #bbdefb;
+  font-size: 1rem;
+}
+
+/* ---------- Menu de navegação ---------- */
+.menu ul {
+  list-style: none;
+  padding: 0px;
+  margin: 16px 0px 0px 0px;
+}
+
+.menu li {
+  display: inline-block;
+  margin-right: 24px;
+}
+
+
+.menu > ul > li > a{
+  color: #ffffff;
+    font-size: 1rem;
+  text-decoration: none;
+}
+.menu a:hover {
+  color: #bbdefb; 
+   text-decoration: underline;
+  text-decoration: underline;
+}
+/* ---------- Seções ---------- */
+.secao {
+  padding: 32px;
+  max-width: 960px;
+}
+
+h2 {
+  color: #1565c0;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #0d47a1;
+  font-size: 1.25rem   ;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 24px;
+}
+
+.destaque ~ p {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #b71c1c;
+}
+
+/* ---------- Grade de trilhas ---------- */
+.cartao {
+  display: inline-block;
+  width: 14.5vw;
+  vertical-align: top;
+  border: 1px solid #cccccc;
+  background-color: #ffffff;
+  padding: 1em;
+  margin: 0.5em;
+}
+.cartao:nth-child(odd) {
+  background-color: #ffffff; 
+}
+.cartao:nth-child(even) {
+  background-color: #f9f9f9;
+}
+.botao {
+  display: inline-block;
+  background-color: #1565c0;
+  color: #ffffff;
+  font-size: 1rem;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+}
+.botao:hover {
+  background-color: #0d47a1;
+}
+.cartao:not(:last-child) {
+  margin-bottom: 24px;
+}
+/* ---------- Lista de programação ---------- */
+.lista-dias {
+  font-size: 1rem;
+  line-height: 28px;
+}
+.lista-dias > li {
+  font-weight: bold;
+}
+.lista-dias > li:first-child {
+  color: #1565c0; 
+  font-weight: bold;
+}
+.lista-dias > li:last-child {
+  color: #2e7d32;   
+  background-color: #e8f5e9;
+  padding-left: 8px;         
+}
+
+/* ---------- Formulário ---------- */
+.formulario {
+  max-width: 480px;
+}
+
+label {
+  display: block;
+  font-size: 1rem;
+  margin-top: 16px;
+}
+
+
+input + textarea {
+  display: block;
+  width: 16.7vw;
+  font-size: 1rem;
+  padding: 8px;
+  margin-top: 4px;
+  border: 1px solid #999999;
+}
+input + textarea:focus {
+  outline: none;
+  border-color: #1565c0; 
+  box-shadow: 0 0 0 3px rgba(21, 101, 192, 0.2);
+  background-color: #ffffff; 
+}
+button {
+  font-size: 16px;
+  color: #ffffff;
+  background-color: #1565c0;
+  padding: 8px 24px;
+  margin-top: 16px;
+  border: 0px;
+}
+
+/* ---------- Rodapé ---------- */
+.rodape {
+  background-color: #263238;
+  color: #cfd8dc;
+  padding: 24px;
+  font-size: 1.125rem;
+}
